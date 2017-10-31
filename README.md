@@ -10,6 +10,8 @@ Usage:
 
 `sudo webgate unblock twitter.com www.facebook.com`
 
+`webgate help`
+
 webgate requires sudo to edit /etc/hosts. This also prevents tampering by non-sudoers.
 
 You can list as many host arguments as you'd like.
