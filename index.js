@@ -19,6 +19,7 @@ function main() {
         case 'unblock':
             actionFunction = unblock
             break;
+        case 'help':
         default:
             printHelpAndQuit()
     }
