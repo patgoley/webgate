@@ -85,7 +85,7 @@ function getHostArgs() {
 }
 
 function printHelpAndQuit() {
-    console.error("Must supply an action { block | unblock } and a list of hostnames as arguments.\nFor example:\nsudo webgate block twitter.com www.facebook.com")
+    console.log("Supply an action { block | unblock } and a list of hostnames as arguments.\nFor example:\nsudo webgate block twitter.com www.facebook.com")
     process.exit(1)
 }
 
