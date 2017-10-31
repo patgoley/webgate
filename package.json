@@ -1,6 +1,10 @@
 {
   "name": "webgate",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/patgoley/webgate.git"
+  },
   "description": "Block and unblock websites using your /etc/hosts file.",
   "main": "index.js",
   "scripts": {
